@@ -1,0 +1,48 @@
+body{
+    width: 200px;
+    margin: 0;
+    padding: 0 10px 10px 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+h1 {
+    font-size: 18px;
+    border-bottom: 0.5px solid #dadada;
+}
+
+body > .credits-container {
+    margin-top: 30px;
+    border-top: 0.5px solid #dadada;
+}
+
+body > .credits-container > .name-container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-top: 0.5px solid #dadada;
+}
+
+.flex {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 60px;
+}
+
+.flex:hover {
+    opacity: 0.4;
+}
+
+.flex .fa {
+    font-size: 20px;
+    color: black;
+}
