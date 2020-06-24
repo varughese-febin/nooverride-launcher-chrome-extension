@@ -22,4 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }); 
         window.close();
     }
+
+    document.getElementById('more-info-link').addEventListener('click', testing, false)
+    function testing() {
+        this.style.display = 'none';
+        document.getElementById('credits-block').style.display = 'block';
+    }
 }, false)
